@@ -4,6 +4,14 @@
 bin/
 obj/
 
+# Giao diện đã build, được copy vào backend khi chạy toàn bộ hệ thống.
+# ĐƯỢC commit lên Git để người khác clone về chạy được ngay (không cần Node.js).
+# Bỏ comment dòng dưới nếu muốn tự build giao diện ở mỗi máy.
+# Backend/wwwroot/
+
+# Script kiểm thử tạm
+qa-*.mjs
+
 # Visual Studio
 .vs/
 *.user
